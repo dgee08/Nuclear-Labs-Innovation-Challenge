@@ -1,0 +1,353 @@
+{
+ "note": "Expected values were produced by the ORIGINAL model.py before the refactor.",
+ "cases": [
+  {
+   "design": {
+    "length_m": 3.953,
+    "outer_diameter_m": 0.009943,
+    "clad_thickness_m": 0.000475,
+    "pellet_diameter_m": 0.008832,
+    "num_rods": 174,
+    "pellet_material": "UO2",
+    "cladding_material": "Zircaloy",
+    "guide_tube_material": "SS316",
+    "spacer_material": "Graphite",
+    "nozzle_material": "SS316",
+    "smr_type": "Light Water Reactor"
+   },
+   "operating": {
+    "scenario": "low",
+    "power_mode": "fixed_core_power",
+    "core_power_MWt": 823.2,
+    "capacity_factor": 0.68
+   },
+   "expected": {
+    "num_rods": 11570,
+    "procurement_total_usd": 10999835.116936728,
+    "lifecycle_total_usd": 34454835.24574411,
+    "rod_change_interval_yr": 5.572641185938632,
+    "lifecycle_usd_per_MWh_e": 3.820821744219537,
+    "operational_usd_per_year": 1973899.7631307144
+   }
+  },
+  {
+   "design": {
+    "length_m": 2.722,
+    "outer_diameter_m": 0.008516,
+    "clad_thickness_m": 0.000609,
+    "pellet_diameter_m": 0.007138,
+    "num_rods": 664,
+    "pellet_material": "MOX",
+    "cladding_material": "Hastelloy",
+    "guide_tube_material": "Zircaloy",
+    "spacer_material": "Graphite",
+    "nozzle_material": "SS316",
+    "smr_type": "Sodium Cooled SMRs"
+   },
+   "operating": {
+    "scenario": "mean",
+    "power_mode": "scale_with_N",
+    "core_power_MWt": null,
+    "capacity_factor": 0.93
+   },
+   "expected": {
+    "num_rods": 664,
+    "procurement_total_usd": 1500527.2787796229,
+    "lifecycle_total_usd": 2105960.758286889,
+    "rod_change_interval_yr": 2.9274357996275753,
+    "lifecycle_usd_per_MWh_e": 7.402453780544693,
+    "operational_usd_per_year": 563831.3253078241
+   }
+  },
+  {
+   "design": {
+    "length_m": 2.186,
+    "outer_diameter_m": 0.011784,
+    "clad_thickness_m": 0.000691,
+    "pellet_diameter_m": 0.010241,
+    "num_rods": 699,
+    "pellet_material": "TRISO",
+    "cladding_material": "Hastelloy",
+    "guide_tube_material": "Zircaloy",
+    "spacer_material": "SS316",
+    "nozzle_material": "SS316",
+    "smr_type": "High-Temperature Gas-Cooled SMRs"
+   },
+   "operating": {
+    "scenario": "high",
+    "power_mode": "fixed_core_power",
+    "core_power_MWt": 523.2,
+    "capacity_factor": 0.65
+   },
+   "expected": {
+    "num_rods": 23935,
+    "procurement_total_usd": 73372325.39231543,
+    "lifecycle_total_usd": 75370355.41569264,
+    "rod_change_interval_yr": 1.3891153369250286,
+    "lifecycle_usd_per_MWh_e": 55.19034627649785,
+    "operational_usd_per_year": 55460435.58375106
+   }
+  },
+  {
+   "design": {
+    "length_m": 3.713,
+    "outer_diameter_m": 0.010515,
+    "clad_thickness_m": 0.00067,
+    "pellet_diameter_m": 0.009014,
+    "num_rods": 673,
+    "pellet_material": "UO2",
+    "cladding_material": "SS316",
+    "guide_tube_material": "Zircaloy",
+    "spacer_material": "Graphite",
+    "nozzle_material": "Hastelloy",
+    "smr_type": "Molten-Salt SMRs"
+   },
+   "operating": {
+    "scenario": "low",
+    "power_mode": "scale_with_N",
+    "core_power_MWt": null,
+    "capacity_factor": 0.82
+   },
+   "expected": {
+    "num_rods": 673,
+    "procurement_total_usd": 662496.7227674045,
+    "lifecycle_total_usd": 1997346.1101889855,
+    "rod_change_interval_yr": 7.701331067884449,
+    "lifecycle_usd_per_MWh_e": 2.9189345948514274,
+    "operational_usd_per_year": 98927.21459016573
+   }
+  },
+  {
+   "design": {
+    "length_m": 2.188,
+    "outer_diameter_m": 0.010234,
+    "clad_thickness_m": 0.000674,
+    "pellet_diameter_m": 0.008727,
+    "num_rods": 161,
+    "pellet_material": "MOX",
+    "cladding_material": "SS316",
+    "guide_tube_material": "SS316",
+    "spacer_material": "Graphite",
+    "nozzle_material": "Hastelloy",
+    "smr_type": "Light Water Reactor"
+   },
+   "operating": {
+    "scenario": "mean",
+    "power_mode": "fixed_core_power",
+    "core_power_MWt": 413.5,
+    "capacity_factor": 0.71
+   },
+   "expected": {
+    "num_rods": 10500,
+    "procurement_total_usd": 27528212.663808815,
+    "lifecycle_total_usd": 39031546.25396843,
+    "rod_change_interval_yr": 5.211104314374391,
+    "lifecycle_usd_per_MWh_e": 8.825393549523774,
+    "operational_usd_per_year": 5282606.335066939
+   }
+  },
+  {
+   "design": {
+    "length_m": 2.899,
+    "outer_diameter_m": 0.011513,
+    "clad_thickness_m": 0.000627,
+    "pellet_diameter_m": 0.0101,
+    "num_rods": 284,
+    "pellet_material": "TRISO",
+    "cladding_material": "SS316",
+    "guide_tube_material": "Zircaloy",
+    "spacer_material": "Graphite",
+    "nozzle_material": "Inconel",
+    "smr_type": "Sodium Cooled SMRs"
+   },
+   "operating": {
+    "scenario": "high",
+    "power_mode": "scale_with_N",
+    "core_power_MWt": null,
+    "capacity_factor": 0.78
+   },
+   "expected": {
+    "num_rods": 284,
+    "procurement_total_usd": 1102459.7282338478,
+    "lifecycle_total_usd": 1133040.1162150928,
+    "rod_change_interval_yr": 0.38702759233553463,
+    "lifecycle_usd_per_MWh_e": 78.84863123382715,
+    "operational_usd_per_year": 3133383.0586576737
+   }
+  },
+  {
+   "design": {
+    "length_m": 2.864,
+    "outer_diameter_m": 0.013251,
+    "clad_thickness_m": 0.000765,
+    "pellet_diameter_m": 0.011561,
+    "num_rods": 174,
+    "pellet_material": "UO2",
+    "cladding_material": "Zircaloy",
+    "guide_tube_material": "Inconel",
+    "spacer_material": "Inconel",
+    "nozzle_material": "SS316",
+    "smr_type": "High-Temperature Gas-Cooled SMRs"
+   },
+   "operating": {
+    "scenario": "low",
+    "power_mode": "fixed_core_power",
+    "core_power_MWt": 693.6,
+    "capacity_factor": 0.65
+   },
+   "expected": {
+    "num_rods": 24218,
+    "procurement_total_usd": 29681454.46056538,
+    "lifecycle_total_usd": 90629423.24863479,
+    "rod_change_interval_yr": 31.963489350512067,
+    "lifecycle_usd_per_MWh_e": 2.175577433149282,
+    "operational_usd_per_year": 975035.1984988889
+   }
+  },
+  {
+   "design": {
+    "length_m": 4.005,
+    "outer_diameter_m": 0.010934,
+    "clad_thickness_m": 0.00042,
+    "pellet_diameter_m": 0.009935,
+    "num_rods": 671,
+    "pellet_material": "MOX",
+    "cladding_material": "Inconel",
+    "guide_tube_material": "SS316",
+    "spacer_material": "Graphite",
+    "nozzle_material": "Inconel",
+    "smr_type": "Molten-Salt SMRs"
+   },
+   "operating": {
+    "scenario": "mean",
+    "power_mode": "scale_with_N",
+    "core_power_MWt": null,
+    "capacity_factor": 0.81
+   },
+   "expected": {
+    "num_rods": 671,
+    "procurement_total_usd": 4141458.291342351,
+    "lifecycle_total_usd": 5885343.640562792,
+    "rod_change_interval_yr": 9.470987476481836,
+    "lifecycle_usd_per_MWh_e": 6.583505445410598,
+    "operational_usd_per_year": 502870.1650034156
+   }
+  },
+  {
+   "design": {
+    "length_m": 4.52,
+    "outer_diameter_m": 0.011479,
+    "clad_thickness_m": 0.000628,
+    "pellet_diameter_m": 0.010063,
+    "num_rods": 376,
+    "pellet_material": "TRISO",
+    "cladding_material": "Hastelloy",
+    "guide_tube_material": "Inconel",
+    "spacer_material": "Graphite",
+    "nozzle_material": "SS316",
+    "smr_type": "Light Water Reactor"
+   },
+   "operating": {
+    "scenario": "high",
+    "power_mode": "fixed_core_power",
+    "core_power_MWt": 101.6,
+    "capacity_factor": 0.85
+   },
+   "expected": {
+    "num_rods": 1249,
+    "procurement_total_usd": 7611460.762777645,
+    "lifecycle_total_usd": 7819617.037402952,
+    "rod_change_interval_yr": 0.3205655055137247,
+    "lifecycle_usd_per_MWh_e": 97.70977568140552,
+    "operational_usd_per_year": 23743854.631457742
+   }
+  },
+  {
+   "design": {
+    "length_m": 4.466,
+    "outer_diameter_m": 0.011883,
+    "clad_thickness_m": 0.000897,
+    "pellet_diameter_m": 0.00993,
+    "num_rods": 391,
+    "pellet_material": "UO2",
+    "cladding_material": "Hastelloy",
+    "guide_tube_material": "Inconel",
+    "spacer_material": "Inconel",
+    "nozzle_material": "SS316",
+    "smr_type": "Sodium Cooled SMRs"
+   },
+   "operating": {
+    "scenario": "low",
+    "power_mode": "scale_with_N",
+    "core_power_MWt": null,
+    "capacity_factor": 0.93
+   },
+   "expected": {
+    "num_rods": 391,
+    "procurement_total_usd": 662029.698644506,
+    "lifecycle_total_usd": 1794041.9282010873,
+    "rod_change_interval_yr": 5.66542884339518,
+    "lifecycle_usd_per_MWh_e": 3.3726659880882712,
+    "operational_usd_per_year": 128539.72552456263
+   }
+  },
+  {
+   "design": {
+    "length_m": 3.481,
+    "outer_diameter_m": 0.010133,
+    "clad_thickness_m": 0.000705,
+    "pellet_diameter_m": 0.008562,
+    "num_rods": 323,
+    "pellet_material": "MOX",
+    "cladding_material": "Inconel",
+    "guide_tube_material": "Zircaloy",
+    "spacer_material": "Graphite",
+    "nozzle_material": "SS316",
+    "smr_type": "High-Temperature Gas-Cooled SMRs"
+   },
+   "operating": {
+    "scenario": "mean",
+    "power_mode": "fixed_core_power",
+    "core_power_MWt": 388.2,
+    "capacity_factor": 0.92
+   },
+   "expected": {
+    "num_rods": 11152,
+    "procurement_total_usd": 45843982.76091396,
+    "lifecycle_total_usd": 64553577.33250664,
+    "rod_change_interval_yr": 12.38620907934651,
+    "lifecycle_usd_per_MWh_e": 5.048013448732362,
+    "operational_usd_per_year": 3886272.352630051
+   }
+  },
+  {
+   "design": {
+    "length_m": 3.205,
+    "outer_diameter_m": 0.010979,
+    "clad_thickness_m": 0.000483,
+    "pellet_diameter_m": 0.009853,
+    "num_rods": 384,
+    "pellet_material": "TRISO",
+    "cladding_material": "SS316",
+    "guide_tube_material": "SS316",
+    "spacer_material": "Graphite",
+    "nozzle_material": "Inconel",
+    "smr_type": "Molten-Salt SMRs"
+   },
+   "operating": {
+    "scenario": "high",
+    "power_mode": "scale_with_N",
+    "core_power_MWt": null,
+    "capacity_factor": 0.85
+   },
+   "expected": {
+    "num_rods": 384,
+    "procurement_total_usd": 1549576.4541847315,
+    "lifecycle_total_usd": 1593080.52647949,
+    "rod_change_interval_yr": 0.4916308426968687,
+    "lifecycle_usd_per_MWh_e": 71.43501152640712,
+    "operational_usd_per_year": 3624697.1661442327
+   }
+  }
+ ]
+}
